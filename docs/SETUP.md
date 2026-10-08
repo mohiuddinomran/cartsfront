@@ -29,3 +29,8 @@ The six integration patterns check shortcode availability while their PHP patter
 - https://make.wordpress.org/themes/handbook/review/required/
 
 Shortcode names are documentation-grounded, but compatibility is not runtime-verified yet.
+
+## Updating from 0.1.0 to 0.2.0
+Upload the new ZIP and replace the installed version. Edit Home and select **Storefront editorial (design preview)**, then save. This template contains the new homepage itself; the old Home content is preserved and can be displayed again by switching back to Storefront landing page. The new template can be edited in the Site Editor. Existing customized header/footer templates remain authoritative in WordPress.
+
+Create a curated navigation menu in the Site Editor using actual Shop and Customer Profile pages. Omit Receipt, Checkout, and Sample Page from primary browsing navigation. No pages, products, menus, or plugin settings are changed automatically.

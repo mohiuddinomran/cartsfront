@@ -39,3 +39,53 @@ a, button, input, textarea, select { -webkit-tap-highlight-color: transparent; }
 @media (prefers-reduced-motion: reduce) {
  html { scroll-behavior: auto; }
 }
+
+/* Editorial storefront: original CSS-only illustration placeholders. */
+.cartsfront-header > .wp-block-group { gap: 1.25rem; }
+.cartsfront-header { padding-block: 1rem; }
+.cartsfront-header-search { flex-basis: 190px; }
+.cartsfront-header-search .wp-block-search__input { padding: .5rem; }
+.cartsfront-header-search .wp-block-search__button { padding: .5rem .75rem; }
+.cartsfront-editorial-hero { background: var(--wp--preset--color--surface); min-height: 580px; padding: clamp(4rem, 9vw, 8rem) 1.5rem; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem; }
+.cartsfront-editorial-hero > * { margin-block: 0; max-width: 720px; }
+.cartsfront-editorial-hero h1 { font-size: clamp(2.6rem, 6vw, 4.5rem); line-height: 1.06; }
+.cartsfront-eyebrow { font-size: .7rem; letter-spacing: .18em; font-weight: 700; text-transform: uppercase; }
+.cartsfront-intro { color: var(--wp--preset--color--muted); }
+.cartsfront-editorial-hero .cartsfront-intro { font-size: 1.125rem; max-width: 500px; }
+.cartsfront-collection-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 2rem; }
+.cartsfront-collection-grid > * { margin-block: 0; }
+.cartsfront-collection-card h3 { font-size: 1.25rem; text-transform: uppercase; margin-block: 1.25rem .5rem; }
+.cartsfront-collection-card p { font-size: .875rem; color: var(--wp--preset--color--muted); margin-block: 0; }
+.cartsfront-collection-art { aspect-ratio: 4/5; background: var(--wp--preset--color--surface); position: relative; overflow: hidden; }
+.cartsfront-collection-art::before,.cartsfront-collection-art::after { content: ''; position: absolute; display: block; }
+.cartsfront-art-1::before { width: 48%; height: 43%; left: 26%; top: 37%; background: #d0cdc8; border-radius: 3% 3% 12% 12%; transform: rotate(-7deg); box-shadow: 12px 18px 24px #0000000b; }
+.cartsfront-art-1::after { width: 25%; height: 25%; left: 36%; top: 21%; border: 9px solid #c0bdb7; border-bottom: 0; border-radius: 50% 50% 0 0; transform: rotate(-7deg); }
+.cartsfront-art-2 { background: #eeefed; }
+.cartsfront-art-2::before { width: 26%; height: 52%; left: 37%; top: 29%; border-radius: 22% 22% 12% 12%; background: linear-gradient(90deg,#c0c5bf,#d5d9d2 55%,#b8bdb6); box-shadow: 12px 18px 24px #0000000b; }
+.cartsfront-art-2::after { width: 17%; height: 9%; left: 41.5%; top: 22%; background: #8a9087; border-radius: 12% 12% 0 0; }
+.cartsfront-art-3 { background: #edeae6; }
+.cartsfront-art-3::before { width: 41%; height: 37%; left: 25%; top: 37%; background: #c1b9ad; border-radius: 5% 5% 35% 35%; box-shadow: 12px 18px 24px #0000000b; }
+.cartsfront-art-3::after { width: 21%; height: 26%; left: 58%; top: 40%; border: 11px solid #c1b9ad; border-radius: 50%; }
+.cartsfront-editorial-catalog { border-top: 1px solid var(--wp--preset--color--line); }
+.cartsfront-editorial-catalog > h2 { font-size: clamp(1.75rem,4vw,2.5rem); margin-block: 0 .5rem; }
+.cartsfront-editorial-catalog > .cartsfront-intro { margin-block: 0 2.5rem; }
+.cartsfront-editorial-story { display: grid; grid-template-columns: 1fr 1fr; background: var(--wp--preset--color--ink); color: var(--wp--preset--color--paper); padding: 0; margin-block: 2rem 5rem; }
+.cartsfront-editorial-story > * { margin-block: 0; }
+.cartsfront-editorial-story-copy { padding: clamp(2rem,5vw,4rem); }
+.cartsfront-editorial-story h2 { color: inherit; font-size: clamp(2rem,4vw,3rem); }
+.cartsfront-editorial-story-art { min-height: 350px; background: repeating-linear-gradient(120deg,#30302f 0,#30302f 3px,#343433 3px,#343433 12px); }
+.cartsfront-footer { margin-block-start: 0; padding-block: 4rem; }
+@media (max-width: 900px) {
+ .cartsfront-header > .wp-block-group { flex-wrap: wrap; }
+ .cartsfront-header-search { flex-basis: 100%; }
+ .cartsfront-collection-grid { gap: 1rem; }
+}
+@media (max-width: 600px) {
+ .cartsfront-editorial-hero { min-height: 480px; }
+ .cartsfront-collection-grid { grid-template-columns: 1fr; gap: 2rem; }
+ .cartsfront-collection-art { aspect-ratio: 5/4; }
+ .cartsfront-editorial-story { grid-template-columns: 1fr; }
+ .cartsfront-editorial-story-art { min-height: 220px; }
+ .cartsfront-editorial-hero .wp-block-buttons { width: 100%; }
+ .cartsfront-editorial-hero .wp-block-button,.cartsfront-editorial-hero .wp-block-button__link { width: 100%; }
+}

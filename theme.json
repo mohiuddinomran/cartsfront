@@ -227,6 +227,13 @@
       "postTypes": [
         "page"
       ]
+    },
+    {
+      "name": "storefront-editorial",
+      "title": "Storefront editorial (design preview)",
+      "postTypes": [
+        "page"
+      ]
     }
   ],
   "templateParts": [

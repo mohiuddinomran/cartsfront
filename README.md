@@ -2,7 +2,7 @@
 
 Free, open-source WordPress storefront theme. Built from scratch for Mohiuddin Omran; licensed GPL-2.0-or-later. No activation key, trial, or paid theme feature unlocks.
 
-## Status: 0.1.0 development foundation
+## Status: 0.2.0 editorial homepage preview
 
 This is a fresh start, not a continuation of the earlier theme code. It establishes the theme structure and design system. It is not yet a complete reproduction of the supplied UX Pilot wireframe, a tested FluentCart integration, or a WordPress.org-ready release.
 
@@ -29,3 +29,8 @@ Read [setup](docs/SETUP.md) and [release checklist](docs/RELEASE-CHECKLIST.md).
 
 ## Development policy
 Keep changes in this repository. Preserve merchant content and settings. Never put payments, contact storage, custom blocks, or automation logic in theme code. Include only original or GPL-compatible assets. Do not claim directory approval before review.
+
+## Editorial homepage preview (0.2.0)
+Select the **Storefront editorial (design preview)** template on Home. This opt-in template renders its own editable layout; existing page content remains saved but is not displayed by this template. The original Storefront landing page template still displays page content. Edit the editorial template in Appearance > Editor, or insert the Storefront editorial homepage pattern into a page using the original template for page-level editing.
+
+Includes a responsive hero, three illustrative collection panels, native FluentCart catalog, and store-story section. Collection panels are editable decorative examples, not live category filters. CSS illustrations are original placeholders; replace with merchant images. No newsletter form is shown until a real form is configured. Plugin output, checkout, customer account styling, navigation curation, and full wireframe implementation remain in progress.
