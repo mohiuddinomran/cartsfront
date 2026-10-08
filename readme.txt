@@ -2,7 +2,7 @@
 Contributors: mohiuddinomran
 Requires at least: 6.6
 Requires PHP: 7.4
-Version: 0.2.0
+Version: 0.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,8 @@ No third-party fonts, images, icons, or JavaScript libraries are bundled.
 System fonts are referenced, not distributed.
 
 == Changelog ==
+= 0.2.1 =
+Render plain FluentCart shortcode blocks inside block templates; preserve already-rendered output and hide unavailable integration shortcodes.
 = 0.2.0 =
 Opt-in editorial homepage template with hero, collection illustration panels, live catalog shortcode, store-story section, and responsive styling. Existing page content is preserved.
 = 0.1.0 =
