@@ -34,3 +34,8 @@ Shortcode names are documentation-grounded, but compatibility is not runtime-ver
 Upload the new ZIP and replace the installed version. Edit Home and select **Storefront editorial (design preview)**, then save. This template contains the new homepage itself; the old Home content is preserved and can be displayed again by switching back to Storefront landing page. The new template can be edited in the Site Editor. Existing customized header/footer templates remain authoritative in WordPress.
 
 Create a curated navigation menu in the Site Editor using actual Shop and Customer Profile pages. Omit Receipt, Checkout, and Sample Page from primary browsing navigation. No pages, products, menus, or plugin settings are changed automatically.
+
+## Updating to 0.3.0
+Upload cartsfront-0.3.0.zip and choose Replace current with uploaded. Keep Home on Storefront editorial (design preview). Set Checkout to Checkout (minimal header) for the minimal header/footer.
+
+The default header/footer now use FluentCart's configured Shop, Account, and Cart page IDs. Verify these assignments in FluentCart settings. When the Site Editor has saved a customized header or footer, WordPress uses that saved version instead of the theme file. Keep your customization, or use the Site Editor's reset/clear-customizations control for that specific template part if you want the new default. Do not delete pages or products.

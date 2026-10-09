@@ -11,8 +11,8 @@
 - [ ] Complete remaining wireframe layouts, policy/FAQ patterns, and optional signup placement.
 - [ ] Test keyboard navigation, mobile menu, skip link, form labels, contrast, reduced motion, and screen readers.
 - [ ] Test long titles, RTL, translations, sticky posts, password-protected posts, comments, pagination, images, and tables.
-- [ ] Add an accurate screenshot of the actual theme and verify licenses for every bundled asset.
+- [x] Add an accurate screenshot of the actual theme; bundled screenshot/CSS illustrations are original and licensed GPLv2 or later.
 - [ ] Verify current theme-directory name availability and full review requirements.
 - [ ] Update version/testing metadata, package only distributable theme files, and submit using the owner's WordPress.org account.
 
-Initial 0.1.0 is a foundation. Unchecked items must not be represented as complete.
+Version 0.3.0 passes automated Theme Check. Remaining unchecked items are still open; this is not yet a submission-ready claim. See VALIDATION-0.3.0.md.

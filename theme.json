@@ -251,6 +251,11 @@
       "name": "checkout-header",
       "title": "Checkout header",
       "area": "header"
+    },
+    {
+      "name": "checkout-footer",
+      "title": "Checkout footer",
+      "area": "footer"
     }
   ]
 }

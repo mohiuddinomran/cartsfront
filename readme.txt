@@ -1,13 +1,14 @@
 === CartsFront ===
 Contributors: mohiuddinomran
 Requires at least: 6.6
+Tested up to: 6.8
 Requires PHP: 7.4
-Version: 0.2.1
+Version: 0.3.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-CartsFront is a free, open-source WordPress block theme designed for FluentCart storefronts. This is the initial development foundation, not a directory-approved release. No theme license key or paid unlock is required. Third-party plugin features have their own terms.
+CartsFront is a free, open-source WordPress block theme designed for FluentCart storefronts. This is a development release, not a directory-approved release. No theme license key or paid unlock is required. Third-party plugin features have their own terms.
 
 == Installation ==
 Upload the packaged cartsfront.zip in Appearance > Themes > Add New. Activate CartsFront. Edit headers, footers, colors, and templates in Appearance > Editor.
@@ -23,8 +24,11 @@ The theme makes no external requests, tracks no visitors, and bundles no analyti
 CartsFront code and styles: Copyright 2026 Mohiuddin Omran. GPLv2 or later.
 No third-party fonts, images, icons, or JavaScript libraries are bundled.
 System fonts are referenced, not distributed.
+Screenshot: original capture of CartsFront with its own CSS illustrations, Copyright 2026 Mohiuddin Omran, GPLv2 or later.
 
 == Changelog ==
+= 0.3.0 =
+Curated native storefront navigation, new footer layout, FluentCart 1.7.0 presentation styles, tighter commerce spacing, and a theme screenshot.
 = 0.2.1 =
 Render plain FluentCart shortcode blocks inside block templates; preserve already-rendered output and hide unavailable integration shortcodes.
 = 0.2.0 =
