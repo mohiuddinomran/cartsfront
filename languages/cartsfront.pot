@@ -1,0 +1,595 @@
+# CartsFront translation template.
+# Copyright (C) 2026 Mohiuddin Omran
+# This file is distributed under the GPLv2-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: CartsFront 1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"X-Domain: cartsfront\n"
+
+#: theme.json
+msgid "2XL"
+msgstr ""
+
+#: patterns/editorial-hero.php
+msgid "A considered collection for wherever the day takes you."
+msgstr ""
+
+#: patterns/store-story.php
+msgid "A little about us"
+msgstr ""
+
+#: patterns/faq.php
+msgid "A little help, right here."
+msgstr ""
+
+#: patterns/about.php
+msgid "A personal approach"
+msgstr ""
+
+#: patterns/editorial-home.php
+msgid "A place for everyday favorites."
+msgstr ""
+
+#: patterns/about.php
+msgid "A thoughtful collection starts with a simple question: what deserves a place in your everyday?"
+msgstr ""
+
+#: patterns/about.php
+msgid "About the store"
+msgstr ""
+
+#: patterns/digital-collection.php
+msgid "Abstract digital workspace with a display and document"
+msgstr ""
+
+#: patterns/about.php
+msgid "Abstract studio composition with a vessel and folded fabric"
+msgstr ""
+
+#: functions.php
+msgid "Account"
+msgstr ""
+
+#: patterns/service-columns.php
+msgid "Add a link to your published shipping information."
+msgstr ""
+
+#: patterns/digital-collection.php
+msgid "Add your actual compatibility requirements, license terms, and support information."
+msgstr ""
+
+#: patterns/service-columns.php
+msgid "Add your contact link and support hours."
+msgstr ""
+
+#: patterns/contact.php
+msgid "Add your public support email, business hours, and expected response time here. For order questions, ask customers to include their order number."
+msgstr ""
+
+#: patterns/contact.php
+msgid "Add your published Fluent Forms block here, or replace this paragraph with your preferred contact details."
+msgstr ""
+
+#: patterns/faq.php
+msgid "Answers to common questions about browsing and ordering."
+msgstr ""
+
+#: patterns/digital-collection.php
+msgid "Before you download"
+msgstr ""
+
+#: patterns/digital-collection.php
+msgid "CREATE SOMETHING NEW"
+msgstr ""
+
+#: patterns/collection-panels.php
+msgid "Carry goods"
+msgstr ""
+
+#: functions.php
+msgid "Cart"
+msgstr ""
+
+#: functions.php
+msgid "CartsFront layouts"
+msgstr ""
+
+#: patterns/faq.php
+msgid "Check the product description for file formats and compatibility. Download access is supplied through your order when the store makes it available."
+msgstr ""
+
+#: patterns/checkout.php
+msgid "Checkout"
+msgstr ""
+
+#: theme.json
+msgid "Checkout (minimal header)"
+msgstr ""
+
+#: theme.json
+msgid "Checkout footer"
+msgstr ""
+
+#: theme.json
+msgid "Checkout header"
+msgstr ""
+
+#: patterns/collection-panels.php
+msgid "Collection editorial panels"
+msgstr ""
+
+#: theme.json
+msgid "Commerce page (wide)"
+msgstr ""
+
+#: patterns/about.php
+msgid "Considered choices"
+msgstr ""
+
+#: patterns/contact.php
+msgid "Contact and support"
+msgstr ""
+
+#: patterns/contact.php
+msgid "Contact layout. Insert your own Fluent Forms block; no form or sample address is created."
+msgstr ""
+
+#: patterns/faq.php
+msgid "Contact the store using the contact details on its Contact page and include your order number when relevant."
+msgstr ""
+
+#: patterns/account.php
+msgid "Customer account"
+msgstr ""
+
+#: patterns/contact.php
+msgid "Customer care"
+msgstr ""
+
+#: patterns/service-columns.php
+msgid "Customer information columns"
+msgstr ""
+
+#: patterns/collection-panels.php
+msgid "Daily rituals"
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Damaged or missing items"
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Delivery destinations"
+msgstr ""
+
+#: patterns/service-columns.php
+msgid "Delivery information"
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Describe eligibility, the request process, return postage responsibilities, and the timeframe for contacting your team."
+msgstr ""
+
+#: patterns/digital-collection.php
+msgid "Digital collection introduction"
+msgstr ""
+
+#: patterns/editorial-home.php
+msgid "Discover useful things, simple details, and a fresh perspective on the everyday. Choose the pieces that feel right for you."
+msgstr ""
+
+#: patterns/storefront-hero.php
+msgid "Discover your next favorite, chosen with care and made to fit your day."
+msgstr ""
+
+#: theme.json
+msgid "Display"
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Editable information layout; no invented shipping promises or legal terms."
+msgstr ""
+
+#: patterns/newsletter.php
+msgid "Editable introduction for your own subscription form. Does not collect data by itself."
+msgstr ""
+
+#: patterns/about.php
+msgid "Editable store story with original bundled artwork."
+msgstr ""
+
+#: patterns/editorial-hero.php
+msgid "Editorial hero"
+msgstr ""
+
+#: patterns/editorial-hero.php
+msgid "Elevated essentials for every day."
+msgstr ""
+
+#: patterns/storefront-hero.php
+msgid "Elevated essentials for everyday living."
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Explain how customers can report an issue and what information your support team needs."
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Explain processing times, estimated delivery windows, charges, and how customers receive tracking updates."
+msgstr ""
+
+#: patterns/editorial-hero.php patterns/editorial-home.php patterns/storefront-hero.php patterns/storefront-home.php
+msgid "Explore the collection"
+msgstr ""
+
+#: theme.json
+msgid "Extra Large"
+msgstr ""
+
+#: patterns/editorial-home.php
+msgid "Find your next everyday favorite."
+msgstr ""
+
+#: theme.json
+msgid "Footer"
+msgstr ""
+
+#: patterns/footer-links.php
+msgid "Footer links"
+msgstr ""
+
+#: patterns/collection-panels.php
+msgid "For the everyday and the getting away."
+msgstr ""
+
+#: patterns/faq.php
+msgid "Frequently asked questions"
+msgstr ""
+
+#: patterns/newsletter.php
+msgid "Good things, occasionally."
+msgstr ""
+
+#: patterns/contact.php
+msgid "Have a question about a product or an order? We would love to hear from you."
+msgstr ""
+
+#: theme.json
+msgid "Header"
+msgstr ""
+
+#: patterns/service-columns.php
+msgid "Help customers find your actual returns policy."
+msgstr ""
+
+#: patterns/service-columns.php
+msgid "Here to help"
+msgstr ""
+
+#: functions.php
+msgid "Home"
+msgstr ""
+
+#: patterns/collection-panels.php
+msgid "Home & desk"
+msgstr ""
+
+#: patterns/faq.php
+msgid "How can I get help?"
+msgstr ""
+
+#: patterns/faq.php
+msgid "How do I choose a variation?"
+msgstr ""
+
+#: patterns/faq.php
+msgid "How do digital purchases work?"
+msgstr ""
+
+#: patterns/digital-collection.php
+msgid "Ideas, ready to make your own."
+msgstr ""
+
+#: styles/midnight.json styles/sage.json styles/sand.json theme.json
+msgid "Ink"
+msgstr ""
+
+#: patterns/newsletter.php
+msgid "Insert your Fluent Forms subscription form here. Configure consent and your FluentCRM list in the plugins before publishing."
+msgstr ""
+
+#: patterns/about.php
+msgid "Introduce your team and the care you bring to each customer experience."
+msgstr ""
+
+#: patterns/digital-collection.php
+msgid "Introduction for a digital catalog. Product data and delivery are managed by FluentCart."
+msgstr ""
+
+#: functions.php
+msgid "Journal"
+msgstr ""
+
+#: patterns/journal-heading.php
+msgid "Journal heading"
+msgstr ""
+
+#: theme.json
+msgid "L"
+msgstr ""
+
+#: patterns/editorial-home.php
+msgid "LESS, BUT BETTER"
+msgstr ""
+
+#: theme.json
+msgid "Large"
+msgstr ""
+
+#: patterns/not-found.php
+msgid "Let’s find your way back."
+msgstr ""
+
+#: patterns/contact.php
+msgid "Let’s talk."
+msgstr ""
+
+#: styles/midnight.json styles/sage.json styles/sand.json theme.json
+msgid "Line"
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "List the countries or regions you serve and any delivery restrictions."
+msgstr ""
+
+#: theme.json
+msgid "M"
+msgstr ""
+
+#: patterns/about.php
+msgid "Make room for the everyday."
+msgstr ""
+
+#: patterns/collection-panels.php
+msgid "Make room for what matters."
+msgstr ""
+
+#: theme.json
+msgid "Medium"
+msgstr ""
+
+#: styles/midnight.json
+msgid "Midnight"
+msgstr ""
+
+#: patterns/mini-cart.php
+msgid "Mini cart"
+msgstr ""
+
+#: styles/midnight.json styles/sage.json styles/sand.json theme.json
+msgid "Muted"
+msgstr ""
+
+#: patterns/faq.php
+msgid "Native keyboard-accessible Details blocks; edit answers for your store."
+msgstr ""
+
+#: patterns/newsletter.php
+msgid "New arrivals, stories, and inspiration from the store."
+msgstr ""
+
+#: patterns/newsletter.php
+msgid "Newsletter introduction"
+msgstr ""
+
+#: patterns/no-results.php
+msgid "No results"
+msgstr ""
+
+#: patterns/no-results.php
+msgid "No results found. Try another search or explore the navigation above."
+msgstr ""
+
+#: patterns/about.php
+msgid "OUR STORY"
+msgstr ""
+
+#: patterns/about.php
+msgid "Objects for a life well lived."
+msgstr ""
+
+#: patterns/receipt.php
+msgid "Order receipt"
+msgstr ""
+
+#: patterns/editorial-home.php patterns/storefront-home.php
+msgid "Our collection is taking shape. Please visit again soon."
+msgstr ""
+
+#: patterns/editorial-hero.php
+msgid "Our story"
+msgstr ""
+
+#: patterns/not-found.php
+msgid "Page not found"
+msgstr ""
+
+#: theme.json
+msgid "Page without title"
+msgstr ""
+
+#: styles/midnight.json styles/sage.json styles/sand.json theme.json
+msgid "Paper"
+msgstr ""
+
+#: patterns/digital-collection.php
+msgid "Present your downloadable collection with a clear description of what is included, supported file formats, and how customers can use it."
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Processing and delivery"
+msgstr ""
+
+#: patterns/catalog.php
+msgid "Product catalog"
+msgstr ""
+
+#: patterns/not-found.php
+msgid "Return home"
+msgstr ""
+
+#: patterns/service-columns.php
+msgid "Returns & exchanges"
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Returns and exchanges"
+msgstr ""
+
+#: theme.json
+msgid "S"
+msgstr ""
+
+#: styles/sage.json
+msgid "Sage"
+msgstr ""
+
+#: styles/sand.json
+msgid "Sand"
+msgstr ""
+
+#: patterns/faq.php
+msgid "Select the available size, color, or other option on the product page before adding it to your cart."
+msgstr ""
+
+#: patterns/contact.php
+msgid "Send a message"
+msgstr ""
+
+#: patterns/store-story.php
+msgid "Share the story behind your store: what you make, how you choose your products, and what matters to your customers."
+msgstr ""
+
+#: patterns/about.php
+msgid "Share what you are working toward and how your community can take part."
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Shipping & returns"
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Shipping and returns guide"
+msgstr ""
+
+#: functions.php
+msgid "Shop"
+msgstr ""
+
+#: patterns/cart.php
+msgid "Shopping cart"
+msgstr ""
+
+#: theme.json
+msgid "Small"
+msgstr ""
+
+#: patterns/collection-panels.php
+msgid "Small details. A little more considered."
+msgstr ""
+
+#: patterns/store-navigation.php
+msgid "Store navigation"
+msgstr ""
+
+#: patterns/store-story.php
+msgid "Store story"
+msgstr ""
+
+#: theme.json
+msgid "Storefront editorial"
+msgstr ""
+
+#: patterns/editorial-home.php
+msgid "Storefront editorial homepage"
+msgstr ""
+
+#: patterns/storefront-hero.php
+msgid "Storefront hero"
+msgstr ""
+
+#: patterns/storefront-home.php
+msgid "Storefront homepage"
+msgstr ""
+
+#: theme.json
+msgid "Storefront landing page"
+msgstr ""
+
+#: styles/midnight.json styles/sage.json styles/sand.json theme.json
+msgid "Surface"
+msgstr ""
+
+#: theme.json
+msgid "System Sans"
+msgstr ""
+
+#: patterns/editorial-hero.php
+msgid "THE EVERYDAY COLLECTION"
+msgstr ""
+
+#: patterns/storefront-hero.php
+msgid "THOUGHTFULLY CHOSEN. EVERY DAY."
+msgstr ""
+
+#: patterns/about.php
+msgid "Tell customers what guides your selection, from materials to function."
+msgstr ""
+
+#: patterns/journal-heading.php
+msgid "The journal"
+msgstr ""
+
+#: patterns/not-found.php
+msgid "This page could not be found. Search the site or return to the homepage."
+msgstr ""
+
+#: patterns/service-columns.php
+msgid "Three editable customer information columns; replace starter text before publishing."
+msgstr ""
+
+#: patterns/faq.php
+msgid "Use the account page to review your purchases. Your confirmation email also contains your order details."
+msgstr ""
+
+#: patterns/shipping-returns.php
+msgid "Use this layout to publish your store’s actual shipping and returns information. Replace each section with your own terms before publishing."
+msgstr ""
+
+#: patterns/about.php
+msgid "Use this space to share your own beginnings, introduce the people behind your store, and explain how you choose your collection."
+msgstr ""
+
+#: patterns/about.php
+msgid "We believe familiar things can bring fresh perspective. Our store brings together useful pieces, considered details, and ideas for everyday living."
+msgstr ""
+
+#: patterns/faq.php
+msgid "Where can I find my order?"
+msgstr ""
+
+#: theme.json
+msgid "XL"
+msgstr ""
+
+#: theme.json
+msgid "XS"
+msgstr ""
+
+#: patterns/about.php
+msgid "Your next chapter"
+msgstr ""
+

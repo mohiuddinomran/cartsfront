@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "title": "Sage",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "ink",
+          "name": "Ink",
+          "color": "#203b32"
+        },
+        {
+          "slug": "paper",
+          "name": "Paper",
+          "color": "#fcfdfb"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#4f6259"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#eaf0e8"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#bdcbbf"
+        }
+      ]
+    }
+  }
+}

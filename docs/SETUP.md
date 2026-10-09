@@ -1,41 +1,27 @@
-# Set up a development store
+# CartsFront setup
 
-1. Install WordPress and upload the packaged theme ZIP. Activate CartsFront.
-2. Set your store name/tagline under Settings > General; set the logo, navigation, colors, and footer in Appearance > Editor. Navigation uses actual pages; it does not assume page slugs.
-3. Install and activate FluentCart through WordPress.org. Complete its setup wizard with test products and test payment settings.
-4. Create the core pages, insert the matching CartsFront pattern or FluentCart shortcode, and assign the pages in FluentCart > Settings > Pages Setup:
+== Installation ==
+Upload the packaged cartsfront.zip in Appearance > Themes > Add New. Activate CartsFront. Edit headers, footers, colors, and templates in Appearance > Editor.
+For a store homepage, create a page, insert the Storefront editorial homepage pattern, select Page without title, and choose it as the homepage in Settings > Reading.
+Create About, Contact, FAQ, and Shipping pages with the CartsFront patterns. Replace the starter copy with your own information before publishing.
+For a journal, create an empty page and select it as the posts page in Settings > Reading.
+Choose a palette in Appearance > Editor > Styles > Browse styles. Default, Sand, Sage, and Midnight are included.
+Edit navigation links and the site logo in the Site Editor. Use a merchant logo; no theme branding is forced.
 
-| Page | Shortcode | Theme template |
-| --- | --- | --- |
-| Shop | `[fluent_cart_products]` | Commerce page (wide) |
-| Cart | `[fluent_cart_cart]` | Commerce page (wide) |
-| Checkout | `[fluent_cart_checkout]` | Checkout (minimal header) |
-| Account | `[fluent_cart_customer_profile]` | Commerce page (wide) |
-| Receipt | `[fluent_cart_receipt]` | Commerce page (wide) |
+== Store setup ==
+Install FluentCart separately from Plugins > Add New. Use its setup to create or assign Shop, Cart, Checkout, Receipt, and Account pages. Add the matching CartsFront shortcode pattern only if the page is empty; do not add a second checkout or cart. Choose Commerce page (wide) for store pages and Checkout (minimal header) for checkout.
+FluentCart owns physical and digital products, variations, filters, inventory, taxes, payment methods, orders, downloads, and customer accounts. Configure those in the plugin. This theme does not create products or alter payment behavior.
+The default navigation reads published FluentCart page assignments. Saved navigation and template parts remain under your control.
+Insert Fluent Forms using its own block on Contact or Newsletter layouts. Replace instructional text before publishing. Configure delivery with FluentSMTP and configure lists, consent, and automations in FluentCRM.
+No emails, automations, forms, or customer data are created by the theme.
+The Storefront editorial template includes its own starter sections and displays page content beneath them. To avoid duplicated sections, use Page without title when the homepage pattern is already in page content.
+Existing Site Editor customizations override theme files. Reset an individual template or template part only if you want the packaged design back; this discards customizations to that item.
 
-5. Create Home, select Storefront landing page, and insert the Storefront homepage pattern. Set Home as the static homepage under Settings > Reading. Insert the homepage pattern after activating FluentCart to include the catalog. If inserted earlier, replace the collection placeholder with the Product catalog pattern.
-6. Create a Journal page and assign it as the posts page. Add real menu links to Home, Shop, Journal, Account, and Cart in the Site Editor. Insert the Mini cart pattern into the header if desired.
-7. Add real About, Contact, Shipping, Returns, Privacy, and Terms content. Use a form plugin for contact/newsletter forms; no form processing belongs in the theme.
-8. Install FluentCRM if needed. Configure its supported commerce integration and consent behavior separately. Do not automatically opt buyers into marketing.
+== Optional plugins ==
+All integrations are optional and installed manually:
+FluentCart: https://wordpress.org/plugins/fluent-cart/
+FluentCRM: https://wordpress.org/plugins/fluent-crm/
+Fluent Forms: https://wordpress.org/plugins/fluentform/
+FluentSMTP: https://wordpress.org/plugins/fluent-smtp/
+The theme includes presentation styles and layouts only. Availability of particular plugin features depends on the installed plugin version and edition. Ordinary pages and posts work without plugins.
 
-## Integration boundaries
-Product detail rendering and plugin-generated product URLs stay with FluentCart in this foundation. Dedicated product design adjustments require inspecting the installed plugin version first. This release does not recreate checkout inputs or payment handling.
-
-The six integration patterns check shortcode availability while their PHP pattern is rendered. WordPress saves inserted shortcode blocks as page content; if FluentCart is later removed, remove those shortcode blocks from the affected pages. Standard theme templates remain usable.
-
-## Sources consulted
-- https://docs.fluentcart.com/guide/settings-configuration/pages-setup
-- https://docs.fluentcart.com/guide/customization-and-themes/fluentcart-shortcode
-- https://make.wordpress.org/themes/handbook/review/required/
-
-Shortcode names are documentation-grounded, but compatibility is not runtime-verified yet.
-
-## Updating from 0.1.0 to 0.2.0
-Upload the new ZIP and replace the installed version. Edit Home and select **Storefront editorial (design preview)**, then save. This template contains the new homepage itself; the old Home content is preserved and can be displayed again by switching back to Storefront landing page. The new template can be edited in the Site Editor. Existing customized header/footer templates remain authoritative in WordPress.
-
-Create a curated navigation menu in the Site Editor using actual Shop and Customer Profile pages. Omit Receipt, Checkout, and Sample Page from primary browsing navigation. No pages, products, menus, or plugin settings are changed automatically.
-
-## Updating to 0.3.0
-Upload cartsfront-0.3.0.zip and choose Replace current with uploaded. Keep Home on Storefront editorial (design preview). Set Checkout to Checkout (minimal header) for the minimal header/footer.
-
-The default header/footer now use FluentCart's configured Shop, Account, and Cart page IDs. Verify these assignments in FluentCart settings. When the Site Editor has saved a customized header or footer, WordPress uses that saved version instead of the theme file. Keep your customization, or use the Site Editor's reset/clear-customizations control for that specific template part if you want the new default. Do not delete pages or products.

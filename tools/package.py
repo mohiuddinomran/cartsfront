@@ -4,7 +4,7 @@ from zipfile import ZipFile, ZIP_DEFLATED
 root = Path(__file__).resolve().parents[1]
 (root / 'dist').mkdir(exist_ok=True)
 files = ['style.css', 'theme.json', 'functions.php', 'readme.txt', 'LICENSE', 'screenshot.png']
-for folder in ('assets', 'templates', 'parts', 'patterns'):
+for folder in ('assets', 'templates', 'parts', 'patterns', 'styles', 'languages'):
     files.extend(str(p.relative_to(root)) for p in (root / folder).rglob('*') if p.is_file())
 with ZipFile(root / 'dist/cartsfront.zip', 'w', ZIP_DEFLATED) as archive:
     for name in sorted(files):

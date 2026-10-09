@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "title": "Midnight",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "ink",
+          "name": "Ink",
+          "color": "#f3f3ef"
+        },
+        {
+          "slug": "paper",
+          "name": "Paper",
+          "color": "#171b22"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#bec4cc"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#242a34"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#56606e"
+        }
+      ]
+    }
+  }
+}

@@ -230,7 +230,14 @@
     },
     {
       "name": "storefront-editorial",
-      "title": "Storefront editorial (design preview)",
+      "title": "Storefront editorial",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-no-title",
+      "title": "Page without title",
       "postTypes": [
         "page"
       ]

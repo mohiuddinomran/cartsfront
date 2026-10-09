@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "title": "Sand",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "ink",
+          "name": "Ink",
+          "color": "#302c24"
+        },
+        {
+          "slug": "paper",
+          "name": "Paper",
+          "color": "#fffdf8"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#625b50"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#f1ece2"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#ccc3b4"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "Georgia, serif",
+          "fontWeight": "400"
+        }
+      }
+    }
+  }
+}
