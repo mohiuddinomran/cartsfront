@@ -3,11 +3,12 @@ Contributors: mohiuddinomran
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Version: 1.0.0
+Version: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
+This 1.1.0 build is for design review. The 1.0.0 submission package remains unchanged. All design instructions below apply to local review only. The unconfirmed UX Pilot photographs are excluded; original CartsFront SVG placeholders are used.
 CartsFront is a free, open-source WordPress block theme designed for FluentCart storefronts. No theme license key or paid unlock is required. Third-party plugin features have their own terms.
 
 == Installation ==
@@ -36,17 +37,31 @@ FluentSMTP: https://wordpress.org/plugins/fluent-smtp/
 The theme includes presentation styles and layouts only. Availability of particular plugin features depends on the installed plugin version and edition. Ordinary pages and posts work without plugins.
 
 == Privacy ==
-The theme makes no external requests, tracks no visitors, and bundles no analytics. Plugin integrations have their own privacy behavior. Fonts use the device's system font stack.
+The theme makes no external requests, tracks no visitors, and bundles no analytics. Plugin integrations have their own privacy behavior. The default design uses system fonts; editorial designs use locally bundled OFL fonts.
 
 == Copyright and resources ==
 CartsFront code and styles: Copyright 2026 Mohiuddin Omran. GPLv2 or later.
 Original assets/images/studio.svg and assets/images/digital.svg: Copyright 2026 Mohiuddin Omran, GPLv2 or later. Source is the SVG itself, created for CartsFront.
 Original CSS collection illustrations in assets/css/base.css: Copyright 2026 Mohiuddin Omran, GPLv2 or later.
-No third-party fonts, images, icons, or JavaScript libraries are bundled.
+The supplied UX Pilot reference photographs are not distributed in this package. Editorial designs use the original studio.svg and digital.svg artwork credited above. Replace decorative placeholders with your own licensed media in the Site Editor.
+Space Grotesk: Copyright 2020 The Space Grotesk Project Authors, SIL Open Font License 1.1; https://github.com/floriankarsten/space-grotesk
+IBM Plex Sans: Copyright 2017 IBM Corp., SIL Open Font License 1.1; https://github.com/IBM/plex
+Font binaries are sourced from Fontsource; license copies are included beside the local WOFF2 files. No remote fonts, CDN scripts, or icon libraries are loaded.
 System fonts are referenced, not distributed.
 Screenshot: original capture of CartsFront with its own CSS illustrations, Copyright 2026 Mohiuddin Omran, GPLv2 or later.
 
+== Editorial designs ==
+Five homepage templates and patterns: Atelier, Haven, Form, Aura, and Luxe.
+Create an empty page and select the matching homepage template. Set it as the front page in Settings > Reading. Edit its layout in Appearance > Editor > Templates.
+Alternatively insert the matching homepage pattern into a page with the Storefront landing page template. Do not combine a full homepage pattern with a homepage template, as that duplicates the content.
+When the selected static front page uses one of the five homepage templates, FluentCart product pages without an individually assigned template automatically use the matching product template. Existing per-product template assignments are respected.
+Product templates use FluentCart's native blocks and require FluentCart. Optional global styles with the same names are available in the Site Editor.
+Editorial collection cards are editable inspiration panels linking to the live catalog on the same page. Configure actual category destinations if you want category-specific filtering.
+The newsletter section is hidden until a form is inserted. In the Site Editor, add your published Fluent Forms block inside the Newsletter form placement group; configure consent and email delivery in the plugins.
+
 == Changelog ==
+= 1.1.0 =
+Design review build with five editable homepages, five native FluentCart product templates, matching global styles, local fonts, and original SVG placeholder artwork.
 = 1.0.0 =
 Complete starter page patterns, original local artwork, three additional style variations, optional Fluent Forms styling, accessible FAQ blocks, no-title page template, improved content styles, translation catalog, and expanded installation instructions.
 = 0.3.0 =

@@ -9,10 +9,12 @@ function cartsfront_setup() {
     add_theme_support( 'editor-styles' );
     add_editor_style( 'assets/css/base.css' );
     add_editor_style( 'assets/css/commerce.css' );
+    add_editor_style( 'assets/css/designs.css' );
 }
 add_action( 'after_setup_theme', 'cartsfront_setup' );
 function cartsfront_assets() {
     $version = wp_get_theme( get_template() )->get( 'Version' );
+    wp_enqueue_style( 'cartsfront-designs', get_template_directory_uri() . '/assets/css/designs.css', array( 'cartsfront-commerce' ), $version );
     wp_enqueue_style( 'cartsfront-style', get_stylesheet_uri(), array(), $version );
     wp_enqueue_style( 'cartsfront-commerce', get_template_directory_uri() . '/assets/css/commerce.css', array( 'cartsfront-base' ), $version );
     wp_enqueue_style( 'cartsfront-base', get_template_directory_uri() . '/assets/css/base.css', array( 'cartsfront-style' ), $version );
@@ -118,3 +120,26 @@ function cartsfront_body_classes( $classes ) {
     return array_unique( $classes );
 }
 add_filter( 'body_class', 'cartsfront_body_classes' );
+
+/**
+ * Match the default product presentation to an explicitly selected homepage.
+ * Respect any template assigned to the individual product.
+ *
+ * @param string[] $templates Candidate template filenames.
+ * @return string[]
+ */
+function cartsfront_product_design_hierarchy( $templates ) {
+    if ( 'page' !== get_option( 'show_on_front' ) || ! is_singular( 'fluent-products' ) || get_page_template_slug( get_queried_object_id() ) ) {
+        return $templates;
+    }
+    $home_template = get_page_template_slug( (int) get_option( 'page_on_front' ) );
+    $designs = array( 'atelier', 'haven', 'form', 'aura', 'luxe' );
+    foreach ( $designs as $design ) {
+        if ( 'home-' . $design === $home_template ) {
+            array_unshift( $templates, 'product-' . $design . '.php' );
+            break;
+        }
+    }
+    return $templates;
+}
+add_filter( 'single_template_hierarchy', 'cartsfront_product_design_hierarchy' );

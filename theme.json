@@ -45,6 +45,36 @@
           "slug": "sans",
           "name": "System Sans",
           "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+        },
+        {
+          "slug": "space-grotesk",
+          "name": "Space Grotesk",
+          "fontFamily": "\"CartsFront Space\", sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "CartsFront Space",
+              "fontStyle": "normal",
+              "fontWeight": "300 700",
+              "src": [
+                "file:./assets/fonts/space-grotesk/space-grotesk-latin.woff2"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "ibm-plex-sans",
+          "name": "IBM Plex Sans",
+          "fontFamily": "\"CartsFront Plex\", sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "CartsFront Plex",
+              "fontStyle": "normal",
+              "fontWeight": "100 700",
+              "src": [
+                "file:./assets/fonts/ibm-plex-sans/ibm-plex-sans-latin.woff2"
+              ]
+            }
+          ]
         }
       ],
       "fontSizes": [
@@ -241,6 +271,76 @@
       "postTypes": [
         "page"
       ]
+    },
+    {
+      "name": "home-atelier",
+      "title": "Atelier homepage",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "product-atelier",
+      "title": "Atelier product",
+      "postTypes": [
+        "fluent-products"
+      ]
+    },
+    {
+      "name": "home-haven",
+      "title": "Haven homepage",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "product-haven",
+      "title": "Haven product",
+      "postTypes": [
+        "fluent-products"
+      ]
+    },
+    {
+      "name": "home-form",
+      "title": "Form homepage",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "product-form",
+      "title": "Form product",
+      "postTypes": [
+        "fluent-products"
+      ]
+    },
+    {
+      "name": "home-aura",
+      "title": "Aura homepage",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "product-aura",
+      "title": "Aura product",
+      "postTypes": [
+        "fluent-products"
+      ]
+    },
+    {
+      "name": "home-luxe",
+      "title": "Luxe homepage",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "product-luxe",
+      "title": "Luxe product",
+      "postTypes": [
+        "fluent-products"
+      ]
     }
   ],
   "templateParts": [
@@ -262,6 +362,16 @@
     {
       "name": "checkout-footer",
       "title": "Checkout footer",
+      "area": "footer"
+    },
+    {
+      "name": "design-header",
+      "title": "Editorial header",
+      "area": "header"
+    },
+    {
+      "name": "design-footer",
+      "title": "Editorial footer",
       "area": "footer"
     }
   ]

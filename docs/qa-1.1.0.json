@@ -1,0 +1,392 @@
+{
+  "results": [
+    {
+      "name": "home-atelier",
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\nHome\nShop\n\nCARTSFRONT\n\nSearch\nTHE ATELIER\n\nA quiet study in form and fabric. Timeless silhouettes for everyday living.\n\nFeatured Collection\nOuterwear\n\nTailored shapes and considered la"
+      },
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "nodes": [
+            {
+              "target": [
+                ".fct-products-container"
+              ],
+              "summary": "Fix any of the following:\n  Element has children which are not allowed: article[aria-label]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home-haven",
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\nHome\nShop\n\nCARTSFRONT\n\nSearch\nHAVEN HOME.\n\nA collection of considered objects for the sanctuary. Warm minimalism, natural textures, and timeless utility.\n\nVIEW OBJECTS\nFurniture\n\nObjec"
+      },
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "nodes": [
+            {
+              "target": [
+                ".fct-products-container"
+              ],
+              "summary": "Fix any of the following:\n  Element has children which are not allowed: article[aria-label]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home-form",
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\nHome\nShop\n\nCARTSFRONT\n\nSearch\n\nCORE // COLLECTION\n\nFORM.\n\nMinimalist architecture. A fresh perspective on the tools we use every day.\n\nINITIALIZE SHOP\n\n// AVAILABLE_MODULES\n\nThe Series"
+      },
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "nodes": [
+            {
+              "target": [
+                ".fct-products-container"
+              ],
+              "summary": "Fix any of the following:\n  Element has children which are not allowed: article[aria-label]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home-aura",
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\nHome\nShop\n\nCARTSFRONT\n\nSearch\n\nTHE ART OF SCENT\n\naura.\n\nInvisible, yet ever-present. A collection of essences designed to linger in the memory.\n\nDISCOVER\nCurrent Essences\nCedar & White"
+      },
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "nodes": [
+            {
+              "target": [
+                ".fct-products-container"
+              ],
+              "summary": "Fix any of the following:\n  Element has children which are not allowed: article[aria-label]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home-luxe",
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\nHome\nShop\n\nCARTSFRONT\n\nSearch\n\nTHE NEW COLLECTION\n\nthe luxe edit.\n\nA considered edit of fashion, objects, and everyday signatures.\n\nSHOP THE COLLECTION\nIconic Pieces\nATELIER BAG\n\nA str"
+      },
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "nodes": [
+            {
+              "target": [
+                ".fct-products-container"
+              ],
+              "summary": "Fix any of the following:\n  Element has children which are not allowed: article[aria-label]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "product-atelier",
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\nHome\nShop\n\nCARTSFRONT\n\nSearch\nSculptural Wool Coat\n\nA considered piece for everyday living. Select your option below.\n\nPrice:\n$145.00\nQuantity\nBuy Now\nAdd To Cart\nDetails & care\n\nLocal"
+      },
+      "violations": []
+    },
+    {
+      "name": "product-haven",
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\nHome\nShop\n\nCARTSFRONT\n\nSearch\nThe Sculptor Table\n\nA considered piece for everyday living. Select your option below.\n\nPrice:\n$145.00\nQuantity\nBuy Now\nAdd To Cart\nDetails & care\n\nLocal Q"
+      },
+      "violations": []
+    },
+    {
+      "name": "product-form",
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\nHome\nShop\n\nCARTSFRONT\n\nSearch\nCore Module\n\nA considered piece for everyday living. Select your option below.\n\nPrice:\n$145.00\nQuantity\nBuy Now\nAdd To Cart\nDetails & care\n\nLocal QA produ"
+      },
+      "violations": []
+    },
+    {
+      "name": "product-aura",
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\nHome\nShop\n\nCARTSFRONT\n\nSearch\nCedar & White Tea\n\nA considered piece for everyday living. Select your option below.\n\nPrice:\n$145.00\nQuantity\nBuy Now\nAdd To Cart\nDetails & care\n\nLocal QA"
+      },
+      "violations": []
+    },
+    {
+      "name": "product-luxe",
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\nHome\nShop\n\nCARTSFRONT\n\nSearch\nThe Atelier Bag\n\nA considered piece for everyday living. Select your option below.\n\nPrice:\n$145.00\nQuantity\nBuy Now\nAdd To Cart\nDetails & care\n\nLocal QA p"
+      },
+      "violations": []
+    },
+    {
+      "name": "home-atelier",
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\n\nCARTSFRONT\n\nSearch\nTHE ATELIER\n\nA quiet study in form and fabric. Timeless silhouettes for everyday living.\n\nFeatured Collection\nOuterwear\n\nTailored shapes and considered layers.\n\nEXP"
+      },
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "nodes": [
+            {
+              "target": [
+                ".fct-products-container"
+              ],
+              "summary": "Fix any of the following:\n  Element has children which are not allowed: article[aria-label]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home-haven",
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\n\nCARTSFRONT\n\nSearch\nHAVEN HOME.\n\nA collection of considered objects for the sanctuary. Warm minimalism, natural textures, and timeless utility.\n\nVIEW OBJECTS\nFurniture\n\nObjects for eve"
+      },
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "nodes": [
+            {
+              "target": [
+                ".fct-products-container"
+              ],
+              "summary": "Fix any of the following:\n  Element has children which are not allowed: article[aria-label]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home-form",
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\n\nCARTSFRONT\n\nSearch\n\nCORE // COLLECTION\n\nFORM.\n\nMinimalist architecture. A fresh perspective on the tools we use every day.\n\nINITIALIZE SHOP\n\n// AVAILABLE_MODULES\n\nThe Series 01\nCore M"
+      },
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "nodes": [
+            {
+              "target": [
+                ".fct-products-container"
+              ],
+              "summary": "Fix any of the following:\n  Element has children which are not allowed: article[aria-label]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home-aura",
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\n\nCARTSFRONT\n\nSearch\n\nTHE ART OF SCENT\n\naura.\n\nInvisible, yet ever-present. A collection of essences designed to linger in the memory.\n\nDISCOVER\nCurrent Essences\nCedar & White Tea\n\nCalm"
+      },
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "nodes": [
+            {
+              "target": [
+                ".fct-products-container"
+              ],
+              "summary": "Fix any of the following:\n  Element has children which are not allowed: article[aria-label]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home-luxe",
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\n\nCARTSFRONT\n\nSearch\n\nTHE NEW COLLECTION\n\nthe luxe edit.\n\nA considered edit of fashion, objects, and everyday signatures.\n\nSHOP THE COLLECTION\nIconic Pieces\nATELIER BAG\n\nA structured ev"
+      },
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "nodes": [
+            {
+              "target": [
+                ".fct-products-container"
+              ],
+              "summary": "Fix any of the following:\n  Element has children which are not allowed: article[aria-label]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "product-atelier",
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\n\nCARTSFRONT\n\nSearch\nSculptural Wool Coat\n\nA considered piece for everyday living. Select your option below.\n\nPrice:\n$145.00\nQuantity\nBuy Now\nAdd To Cart\nDetails & care\n\nLocal QA produc"
+      },
+      "violations": []
+    },
+    {
+      "name": "product-haven",
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\n\nCARTSFRONT\n\nSearch\nThe Sculptor Table\n\nA considered piece for everyday living. Select your option below.\n\nPrice:\n$145.00\nQuantity\nBuy Now\nAdd To Cart\nDetails & care\n\nLocal QA product "
+      },
+      "violations": []
+    },
+    {
+      "name": "product-form",
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\n\nCARTSFRONT\n\nSearch\nCore Module\n\nA considered piece for everyday living. Select your option below.\n\nPrice:\n$145.00\nQuantity\nBuy Now\nAdd To Cart\nDetails & care\n\nLocal QA product fixture"
+      },
+      "violations": []
+    },
+    {
+      "name": "product-aura",
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\n\nCARTSFRONT\n\nSearch\nCedar & White Tea\n\nA considered piece for everyday living. Select your option below.\n\nPrice:\n$145.00\nQuantity\nBuy Now\nAdd To Cart\nDetails & care\n\nLocal QA product f"
+      },
+      "violations": []
+    },
+    {
+      "name": "product-luxe",
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "main": 1,
+        "brokenImages": [],
+        "text": "Skip to content\n\nCARTSFRONT\n\nSearch\nThe Atelier Bag\n\nA considered piece for everyday living. Select your option below.\n\nPrice:\n$145.00\nQuantity\nBuy Now\nAdd To Cart\nDetails & care\n\nLocal QA product fix"
+      },
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "cart_smoke": {
+    "http_status": 200,
+    "message": "Cart updated successfully",
+    "product": "Core Module",
+    "quantity": 1,
+    "environment": "isolated QA fixture"
+  }
+}

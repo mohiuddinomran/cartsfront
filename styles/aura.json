@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "title": "Aura",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "ink",
+          "name": "Ink",
+          "color": "#171717"
+        },
+        {
+          "slug": "paper",
+          "name": "Paper",
+          "color": "#ffffff"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#606060"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#f2f2f2"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#cccccc"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|space-grotesk",
+          "fontWeight": "300"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|ibm-plex-sans"
+    }
+  }
+}

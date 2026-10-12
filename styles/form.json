@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "title": "Form",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "ink",
+          "name": "Ink",
+          "color": "#ffffff"
+        },
+        {
+          "slug": "paper",
+          "name": "Paper",
+          "color": "#090909"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#b7b7b7"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#1a1a1a"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#666666"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|space-grotesk",
+          "fontWeight": "700"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|ibm-plex-sans"
+    }
+  }
+}

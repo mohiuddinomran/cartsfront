@@ -3,7 +3,7 @@
 Free, GPLv2-or-later WordPress block theme for product-focused stores.
 
 ## Install
-Use the packaged `cartsfront-1.0.0.zip`, not GitHub’s source archive. Upload it under Appearance → Themes → Add New. See [setup](docs/SETUP.md).
+Use the packaged `cartsfront-1.1.0.zip`, not GitHub’s source archive. Upload it under Appearance → Themes → Add New. See [setup](docs/SETUP.md).
 
 ## Included
 - Responsive native block templates for pages, posts, archives, search, and 404.
@@ -15,4 +15,8 @@ Use the packaged `cartsfront-1.0.0.zip`, not GitHub’s source archive. Upload i
 - Translation template and GPL resource credits in readme.txt.
 
 ## Build
-Run `python tools/check.py` then `python tools/package.py`. The output has the correct `cartsfront/` root and excludes development files. Review [validation](docs/VALIDATION-1.0.0.md) for evidence and limits. WordPress.org approval is a separate human review.
+Run `python tools/check.py` then `python tools/package.py`. The output has the correct `cartsfront/` root and excludes development files. Review [validation](docs/VALIDATION-1.1.0.md) for evidence and limits. WordPress.org approval is a separate human review.
+
+## 1.1.0 editorial review build
+
+Five additional homepages and matching FluentCart product templates are included in this repository. See [installation instructions](docs/INSTALL-DESIGNS.md). The repository and current package use original CartsFront SVG placeholders. The user-supplied UX Pilot photographs are excluded pending redistribution clearance. Version 1.1.0 code is published for review at the owner’s request. It is not yet the WordPress.org submission release. The 1.0.0 source remains available in Git history.
