@@ -3,12 +3,12 @@ Contributors: mohiuddinomran
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Version: 1.1.0
+Version: 1.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-This 1.1.0 build is for design review. The 1.0.0 submission package remains unchanged. All design instructions below apply to local review only. The unconfirmed UX Pilot photographs are excluded; original CartsFront SVG placeholders are used.
+Includes seven optional homepage designs with original, locally bundled artwork. This build has not been submitted to WordPress.org.
 CartsFront is a free, open-source WordPress block theme designed for FluentCart storefronts. No theme license key or paid unlock is required. Third-party plugin features have their own terms.
 
 == Installation ==
@@ -54,12 +54,22 @@ Screenshot: original capture of CartsFront with its own CSS illustrations, Copyr
 Five homepage templates and patterns: Atelier, Haven, Form, Aura, and Luxe.
 Create an empty page and select the matching homepage template. Set it as the front page in Settings > Reading. Edit its layout in Appearance > Editor > Templates.
 Alternatively insert the matching homepage pattern into a page with the Storefront landing page template. Do not combine a full homepage pattern with a homepage template, as that duplicates the content.
-When the selected static front page uses one of the five homepage templates, FluentCart product pages without an individually assigned template automatically use the matching product template. Existing per-product template assignments are respected.
+When the selected static front page uses one of the seven homepage templates, FluentCart product pages without an individually assigned template automatically use the matching product template. Existing per-product template assignments are respected.
 Product templates use FluentCart's native blocks and require FluentCart. Optional global styles with the same names are available in the Site Editor.
 Editorial collection cards are editable inspiration panels linking to the live catalog on the same page. Configure actual category destinations if you want category-specific filtering.
 The newsletter section is hidden until a form is inserted. In the Site Editor, add your published Fluent Forms block inside the Newsletter form placement group; configure consent and email delivery in the plugins.
 
+== Digital storefronts ==
+Stack and Academy include homepage patterns, homepage templates, matching product templates, and style variations.
+Select Stack homepage or Academy homepage for an empty page, then assign it as the static front page. Edit the design in Appearance > Editor > Templates.
+Pricing cards contain clearly marked example prices, terms, and benefits. Replace them with your actual offer and link each button to its corresponding FluentCart product or configured purchase URL. These editable display prices do not synchronize with FluentCart. Buttons initially scroll to the live catalog.
+Configure recurring billing, renewals, licensing, access rules, course delivery, and email in the appropriate plugins. The theme does not supply these services.
+Academy instructor cards are placeholders. Replace them with real names, biographies, and licensed images. Its sample-lesson section stays hidden until a Video block has a source.
+
 == Changelog ==
+= 1.2.0 =
+Stack software and Academy course layouts, editable pricing cards, FAQs, matching native product templates, global styles, and four original SVG illustrations. Desktop and mobile variants are combined in each responsive layout.
+
 = 1.1.0 =
 Design review build with five editable homepages, five native FluentCart product templates, matching global styles, local fonts, and original SVG placeholder artwork.
 = 1.0.0 =

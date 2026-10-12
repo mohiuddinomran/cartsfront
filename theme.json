@@ -341,6 +341,34 @@
       "postTypes": [
         "fluent-products"
       ]
+    },
+    {
+      "name": "home-stack",
+      "title": "Stack homepage",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "product-stack",
+      "title": "Stack product",
+      "postTypes": [
+        "fluent-products"
+      ]
+    },
+    {
+      "name": "home-academy",
+      "title": "Academy homepage",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "product-academy",
+      "title": "Academy product",
+      "postTypes": [
+        "fluent-products"
+      ]
     }
   ],
   "templateParts": [

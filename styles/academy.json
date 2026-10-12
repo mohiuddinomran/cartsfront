@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "title": "Academy",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "ink",
+          "name": "Ink",
+          "color": "#2d1e2f"
+        },
+        {
+          "slug": "paper",
+          "name": "Paper",
+          "color": "#fdfbf7"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#5d4e5f"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#f5f0e8"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#d9ced8"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "Georgia, serif",
+          "fontWeight": "400"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|ibm-plex-sans"
+    }
+  }
+}

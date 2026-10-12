@@ -1,0 +1,333 @@
+{
+  "withoutPlugin": {
+    "results": [
+      {
+        "slug": "stack",
+        "width": 1440,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 3,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "faqKeyboard": true,
+        "violations": []
+      },
+      {
+        "slug": "stack",
+        "width": 390,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 3,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "faqKeyboard": true,
+        "violations": []
+      },
+      {
+        "slug": "academy",
+        "width": 1440,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 3,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "faqKeyboard": true,
+        "violations": []
+      },
+      {
+        "slug": "academy",
+        "width": 390,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 3,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "faqKeyboard": true,
+        "violations": []
+      }
+    ],
+    "errors": []
+  },
+  "withPlugin": {
+    "results": [
+      {
+        "slug": "stack",
+        "width": 1440,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 3,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "faqKeyboard": true,
+        "violations": [
+          {
+            "id": "aria-required-children",
+            "nodes": [
+              [
+                ".fct-products-container"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-main-is-top-level",
+            "nodes": [
+              [
+                ".fct-products-wrapper"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-no-duplicate-main",
+            "nodes": [
+              [
+                "#wp--skip-link--target"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-unique",
+            "nodes": [
+              [
+                "article:nth-child(1) > .fct-product-card-prices[role=\"region\"][aria-label=\"Product pricing\"]"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "stack",
+        "width": 390,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 3,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "faqKeyboard": true,
+        "violations": [
+          {
+            "id": "aria-required-children",
+            "nodes": [
+              [
+                ".fct-products-container"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-main-is-top-level",
+            "nodes": [
+              [
+                ".fct-products-wrapper"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-no-duplicate-main",
+            "nodes": [
+              [
+                "#wp--skip-link--target"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-unique",
+            "nodes": [
+              [
+                "article:nth-child(1) > .fct-product-card-prices[role=\"region\"][aria-label=\"Product pricing\"]"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "academy",
+        "width": 1440,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 3,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "faqKeyboard": true,
+        "violations": [
+          {
+            "id": "aria-required-children",
+            "nodes": [
+              [
+                ".fct-products-container"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-main-is-top-level",
+            "nodes": [
+              [
+                ".fct-products-wrapper"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-no-duplicate-main",
+            "nodes": [
+              [
+                "#wp--skip-link--target"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-unique",
+            "nodes": [
+              [
+                "article:nth-child(1) > .fct-product-card-prices[role=\"region\"][aria-label=\"Product pricing\"]"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "academy",
+        "width": 390,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 3,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "faqKeyboard": true,
+        "violations": [
+          {
+            "id": "aria-required-children",
+            "nodes": [
+              [
+                ".fct-products-container"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-main-is-top-level",
+            "nodes": [
+              [
+                ".fct-products-wrapper"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-no-duplicate-main",
+            "nodes": [
+              [
+                "#wp--skip-link--target"
+              ]
+            ]
+          },
+          {
+            "id": "landmark-unique",
+            "nodes": [
+              [
+                "article:nth-child(1) > .fct-product-card-prices[role=\"region\"][aria-label=\"Product pricing\"]"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "finalProducts": {
+    "results": [
+      {
+        "slug": "stack-product",
+        "width": 1440,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 0,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "productTemplate": 1,
+        "design": 1,
+        "violations": []
+      },
+      {
+        "slug": "stack-product",
+        "width": 390,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 0,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "productTemplate": 1,
+        "design": 1,
+        "violations": []
+      },
+      {
+        "slug": "academy-product",
+        "width": 1440,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 0,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "productTemplate": 1,
+        "design": 1,
+        "violations": []
+      },
+      {
+        "slug": "academy-product",
+        "width": 390,
+        "status": 200,
+        "h1": 1,
+        "main": 1,
+        "overflow": false,
+        "broken": 0,
+        "plans": 0,
+        "videoVisible": false,
+        "emptyLinks": 0,
+        "productTemplate": 1,
+        "design": 1,
+        "violations": []
+      }
+    ],
+    "errors": []
+  },
+  "blockValidation": {
+    "stack": [],
+    "academy": []
+  },
+  "cart": {
+    "httpStatus": 200,
+    "message": "Cart updated successfully",
+    "product": "Design foundations",
+    "quantity": 1,
+    "fixturePrice": 49,
+    "orderPlaced": false
+  }
+}

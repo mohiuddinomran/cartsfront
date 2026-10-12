@@ -10,10 +10,12 @@ function cartsfront_setup() {
     add_editor_style( 'assets/css/base.css' );
     add_editor_style( 'assets/css/commerce.css' );
     add_editor_style( 'assets/css/designs.css' );
+    add_editor_style( 'assets/css/digital.css' );
 }
 add_action( 'after_setup_theme', 'cartsfront_setup' );
 function cartsfront_assets() {
     $version = wp_get_theme( get_template() )->get( 'Version' );
+    wp_enqueue_style( 'cartsfront-digital', get_template_directory_uri() . '/assets/css/digital.css', array( 'cartsfront-designs' ), $version );
     wp_enqueue_style( 'cartsfront-designs', get_template_directory_uri() . '/assets/css/designs.css', array( 'cartsfront-commerce' ), $version );
     wp_enqueue_style( 'cartsfront-style', get_stylesheet_uri(), array(), $version );
     wp_enqueue_style( 'cartsfront-commerce', get_template_directory_uri() . '/assets/css/commerce.css', array( 'cartsfront-base' ), $version );
@@ -133,7 +135,7 @@ function cartsfront_product_design_hierarchy( $templates ) {
         return $templates;
     }
     $home_template = get_page_template_slug( (int) get_option( 'page_on_front' ) );
-    $designs = array( 'atelier', 'haven', 'form', 'aura', 'luxe' );
+    $designs = array( 'atelier', 'haven', 'form', 'aura', 'luxe', 'stack', 'academy' );
     foreach ( $designs as $design ) {
         if ( 'home-' . $design === $home_template ) {
             array_unshift( $templates, 'product-' . $design . '.php' );

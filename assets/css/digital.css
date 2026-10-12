@@ -1,0 +1,105 @@
+/* Digital storefront layouts. All rules are scoped to Stack and Academy. */
+.cf-digital { --cf-accent: #0052ff; --wp--preset--color--ink: #0a1128; --wp--preset--color--paper: #fdfcfb; --wp--preset--color--muted: #526175; --wp--preset--color--surface: #f0f5ff; --wp--preset--color--line: #d6dfea; }
+.cf-digital :is(h1,h2,h3,.wp-block-site-title) { font-family: 'CartsFront Plex', sans-serif; font-weight: 600; letter-spacing: -.04em; }
+.cf-digital .cf-display { font-size: clamp(2.8rem,5.2vw,4.75rem); line-height: 1.12; letter-spacing: -.045em; }
+.cf-digital h2 { font-size: clamp(2rem,3vw,2.75rem); line-height: 1.2; }
+.cf-digital h3 { font-size: 1.3rem; line-height: 1.3; }
+.cf-digital .cf-lead { font-weight: 400; font-size: clamp(1.05rem,1.5vw,1.25rem); max-width: 58ch; }
+.cf-digital .cf-section { padding: clamp(3.5rem,7vw,6rem) max(1.25rem,calc((100% - 1200px)/2)); }
+.cf-digital .wp-block-button__link { background: var(--cf-accent); color: #fff; border: 1px solid var(--cf-accent); border-radius: .65rem; text-transform: none; letter-spacing: 0; font-size: 1rem; font-weight: 600; padding: .9rem 1.6rem; text-decoration: none; }
+.cf-digital .is-style-outline .wp-block-button__link { background: transparent; color: var(--wp--preset--color--ink); border-color: var(--wp--preset--color--line); }
+.cf-digital .wp-block-button__link:hover { filter: brightness(.92); }
+.cf-digital .wp-block-buttons { gap: 1rem; margin-block-start: 2rem; }
+.cf-digital figure { margin-inline: 0; }
+.cf-digital img { display: block; width: 100%; height: auto; }
+.cf-digital .cf-cards { gap: 1.75rem; }
+.cf-digital .cf-digital-number { display: flex; align-items: center; justify-content: center; width: 3rem; height: 3rem; border-radius: .75rem; background: var(--wp--preset--color--surface); color: var(--cf-accent); font-size: .9rem; font-weight: 600; flex-shrink: 0; }
+.cf-digital-card p { color: var(--wp--preset--color--muted); }
+.cf-digital-card h3 { margin-block: 1.3rem .7rem; }
+.cf-stack-hero { text-align: center; }
+.cf-stack-hero .cf-display { max-width: 21ch; margin-inline: auto; }
+.cf-stack-hero .cf-lead { margin-inline: auto; }
+.cf-stack-hero .wp-block-buttons { justify-content: center; }
+.cf-stack-hero .cf-digital-dashboard { max-width: 1000px; margin: 4rem auto 0; padding: .5rem; border: 1px solid var(--wp--preset--color--line); background: #fff; border-radius: 1rem; box-shadow: 0 28px 60px -28px #0a112850; }
+.cf-digital-dashboard img { border-radius: .6rem; }
+.cf-digital-benefits { background: #fff; border-block: 1px solid var(--wp--preset--color--line); }
+.cf-digital-feature + .cf-digital-feature { margin-block-start: 6rem; }
+.cf-digital .cf-digital-feature img { aspect-ratio: 4/3; border-radius: 1rem; border: 1px solid var(--wp--preset--color--line); box-shadow: 0 16px 32px -24px #0a112860; }
+.cf-digital-feature ul { padding-inline-start: 1.4rem; }
+.cf-digital-feature li { padding-block: .4rem; }
+.cf-digital-dark { background: #0a1128; color: #fff; }
+.cf-digital-dark .cf-lead, .cf-digital-dark .cf-digital-card p { color: #c9d3e5; }
+.cf-digital-dark .cf-digital-card { padding: 2rem; background: #182239; border: 1px solid #34415c; border-radius: 1rem; }
+.cf-digital .cf-digital-pricing > h2, .cf-digital .cf-digital-pricing > .cf-lead { text-align: center; margin-inline: auto; }
+.cf-digital .cf-plan { padding: 2rem; background: #fff; border: 1px solid var(--wp--preset--color--line); border-radius: 1.15rem; display: flex; flex-direction: column; align-items: stretch; gap: .5rem; }
+.cf-digital .cf-plan > * { margin-block: 0; }
+.cf-digital .cf-plan h3 { margin-block: .3rem .7rem; }
+.cf-digital .cf-plan .cf-plan-price { font-size: clamp(2.3rem,4vw,3.25rem); font-weight: 600; line-height: 1.2; letter-spacing: -.04em; }
+.cf-digital .cf-plan .cf-plan-period { color: var(--wp--preset--color--muted); font-size: .85rem; }
+.cf-digital .cf-plan ul { padding-inline-start: 1.25rem; margin-block: 1.4rem; }
+.cf-plan li { margin-block: .6rem; }
+.cf-digital .cf-plan .wp-block-buttons { margin-block-start: auto; padding-block-start: 1rem; }
+.cf-plan .wp-block-button, .cf-plan .wp-block-button__link { width: 100%; box-sizing: border-box; text-align: center; }
+.cf-digital .cf-plan-featured { border: 2px solid var(--cf-accent); box-shadow: 0 18px 35px -25px var(--cf-accent); }
+.cf-digital .cf-plan-featured .cf-eyebrow { color: var(--cf-accent); }
+.cf-digital .cf-plan-comparison { margin-block-start: 3rem; overflow-x: auto; }
+.cf-plan-comparison table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+.cf-plan-comparison :is(td,th) { padding: 1rem .65rem; text-align: start; border: 0; border-block-end: 1px solid var(--wp--preset--color--line); overflow-wrap: anywhere; }
+.cf-plan-comparison th { background: var(--wp--preset--color--surface); }
+.cf-digital-surface { background: var(--wp--preset--color--surface); }
+.cf-digital-faq { max-width: 850px; margin: 2.5rem auto 0; }
+.cf-digital-faq details { border-block-end: 1px solid var(--wp--preset--color--line); padding: 1.25rem 0; }
+.cf-digital-faq summary { cursor: pointer; font-size: 1.05rem; font-weight: 600; }
+.cf-digital-faq details p { color: var(--wp--preset--color--muted); }
+.cf-digital-cta { text-align: center; background: var(--wp--preset--color--surface); }
+.cf-digital-cta .cf-lead { margin-inline: auto; }
+.cf-digital-cta .wp-block-buttons { justify-content: center; }
+.cf-academy { --cf-accent: #a8353e; --wp--preset--color--ink: #2d1e2f; --wp--preset--color--paper: #fdfbf7; --wp--preset--color--muted: #5d4e5f; --wp--preset--color--surface: #f5f0e8; --wp--preset--color--line: #d9ced8; }
+.cf-academy :is(h1,h2,.wp-block-site-title) { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; letter-spacing: -.045em; }
+.cf-academy .wp-block-button__link { border-radius: 100px; }
+.cf-academy-hero .cf-display { max-width: 13ch; }
+.cf-academy-composition { position: relative; padding: 1rem 0 3rem 2rem; }
+.cf-academy .cf-academy-portrait { margin: 0; border-radius: 2rem; overflow: hidden; background: #efdad0; }
+.cf-academy-portrait img { aspect-ratio: 4/5; object-fit: cover; }
+.cf-academy .cf-academy-float { position: absolute; bottom: 0; left: 0; width: 52%; padding: .8rem; border-radius: 1.2rem; background: #fff; box-shadow: 0 16px 32px -15px #2d1e2f50; transform: rotate(-4deg); }
+.cf-academy-float figure { margin: 0; }
+.cf-academy-float img { border-radius: .65rem; }
+.cf-academy .cf-course-caption { font-size: .8rem; font-weight: 600; margin: .6rem 0 0; }
+.cf-academy .cf-academy-sticker { position: absolute; right: -.5rem; top: -.5rem; background: #ffcec4; padding: 1rem; border-radius: .8rem; transform: rotate(5deg); font-size: .8rem; font-weight: 600; }
+.cf-topic-grid { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 1rem; margin-block-start: 2.5rem; }
+.cf-topic { background: #fff; padding: 2rem 1rem; border-radius: 1.2rem; text-align: center; margin: 0; min-width: 0; }
+.cf-digital .cf-topic h3 { font-size: 1rem; margin: 0; overflow-wrap: anywhere; }
+.cf-academy .cf-split > figure img { aspect-ratio: 4/3; border-radius: 1.5rem; }
+.cf-learning-step { display: flex; gap: 1rem; align-items: start; padding-block: .7rem; }
+.cf-learning-step > * { margin: 0; }
+.cf-learning-step h3 { margin-block: .5rem; font-size: 1.05rem; }
+.cf-learning-step p { margin-block: .5rem; }
+.cf-instructor figure { margin: 0; border-radius: 1.5rem; overflow: hidden; }
+.cf-instructor:nth-child(2) img { filter: hue-rotate(30deg); }
+.cf-instructor:nth-child(3) img { filter: hue-rotate(-25deg); }
+.cf-instructor img { aspect-ratio: 1; object-fit: cover; }
+.cf-instructor p { color: var(--wp--preset--color--muted); font-size: .95rem; }
+.cf-lesson-preview:not(:has(video[src])):not(:has(video source[src])) { display: none; }
+.editor-styles-wrapper .cf-lesson-preview { display: block; }
+.cf-lesson-preview .wp-block-video { max-width: 900px; margin-inline: auto; }
+@media (max-width: 900px) {
+ .cf-digital .cf-split { gap: 2rem; }
+ .cf-digital .cf-plan { padding: 1.4rem; }
+ .cf-digital .cf-cards { gap: 1rem; }
+ .cf-topic-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+}
+@media (max-width: 700px) {
+ .cf-digital .cf-cards, .cf-digital .cf-split { grid-template-columns: minmax(0,1fr); }
+ .cf-digital .cf-cards { gap: 1.5rem; }
+ .cf-digital .cf-display { font-size: clamp(2.5rem,10vw,3.5rem); }
+ .cf-stack-hero .cf-digital-dashboard { margin-block-start: 2.5rem; }
+ .cf-digital-feature + .cf-digital-feature { margin-block-start: 3.5rem; }
+ .cf-digital .cf-digital-feature-copy { grid-row: 1; }
+ .cf-academy-hero .cf-display { max-width: 16ch; }
+ .cf-academy-composition { max-width: 440px; margin: 2rem auto 0; width: 100%; box-sizing: border-box; }
+ .cf-academy .cf-academy-sticker { right: 0; }
+ .cf-topic-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .cf-digital .cf-plan { padding: 1.75rem; }
+ .cf-plan-comparison table { font-size: .75rem; }
+ .cf-plan-comparison :is(td,th) { padding: .8rem .4rem; }
+}

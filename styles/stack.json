@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "title": "Stack",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "ink",
+          "name": "Ink",
+          "color": "#0a1128"
+        },
+        {
+          "slug": "paper",
+          "name": "Paper",
+          "color": "#fdfcfb"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#526175"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#f0f5ff"
+        },
+        {
+          "slug": "line",
+          "name": "Line",
+          "color": "#d6dfea"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|ibm-plex-sans",
+          "fontWeight": "600"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|ibm-plex-sans"
+    }
+  }
+}

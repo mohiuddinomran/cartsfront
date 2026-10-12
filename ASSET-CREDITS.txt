@@ -1,4 +1,4 @@
-CartsFront 1.1.0 distributed assets
+CartsFront 1.2.0 distributed assets
 
 assets/images/studio.svg, assets/images/digital.svg, CSS illustrations and screenshot.png: original CartsFront artwork, Copyright 2026 Mohiuddin Omran. GPLv2 or later. SVG and CSS files are their own source. Screenshot is a capture of CartsFront.
 
@@ -6,3 +6,5 @@ Space Grotesk: Copyright 2020 The Space Grotesk Project Authors. SIL OFL 1.1. So
 IBM Plex Sans: Copyright 2017 IBM Corp. SIL OFL 1.1. Source: https://github.com/IBM/plex ; binaries from Fontsource. License: assets/fonts/ibm-plex-sans/OFL.txt.
 
 UX Pilot reference photographs are excluded from the repository and current distribution pending confirmation of redistribution rights. Their historical source URLs are documented in docs/design-assets.json for the owner to resolve. The previous private design-review ZIP and QA screenshots used those references; they are not the current public package.
+
+assets/images/stack-dashboard.svg, stack-editor.svg, academy-course.svg, academy-studio.svg: original geometric interface and educational illustrations created for CartsFront, Copyright 2026 Mohiuddin Omran, GPLv2 or later. SVG files are their own editable source. They are illustrative, not screenshots or portraits of real people. No remote images or icon libraries from the Stack/Academy exports are distributed.
